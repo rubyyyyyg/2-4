@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>"Form"</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap" rel="stylesheet">
+        <style type="text/css">
+            html, body, h1, h2, h3, p, ol, form, a {
+                padding: 0;
+                border: 0;
+                margin: 0;
+            }
+            .forms {
+                border: 1px solid black;
+                width: 400px;
+                margin-right: auto;
+                margin-left: auto;
+                height: 250px;
+                margin-top: 100px;
+                font-family: 'Bricolage Grotesque', sans-serif;
+            }
+        
+            form {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            h1 {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                text-align: center;
+            }
+            form label, form input {
+                width: 200px;
+                margin: 0;
+                display: block;
+                text-align: center;
+            }
+            input[type=submit] {
+                float: none;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 10px;
+            }
+            input {
+                float: right;
+            }
+          
+
+        </style>
+    </head>
+    <body>
+        <div class="forms">
+            <h1>Contact Me</h1>
+        <form>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" placeholder="First Name">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" placeholder="Last Name">
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Email">
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+    </body>
+</html>
